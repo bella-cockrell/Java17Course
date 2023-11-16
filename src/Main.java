@@ -25,5 +25,10 @@ public class Main {
         System.out.println("Dave's age is: " + salariedEmployee.getAge());
         System.out.println("---------------");
 
+        Worker badWorker = new Worker();
+        System.out.println(badWorker);
+        System.out.println("Bad Workers's age is: " + badWorker.getAge());
+        System.out.println("---------------");
+
     }
 }
