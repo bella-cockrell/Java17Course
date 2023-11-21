@@ -1,3 +1,5 @@
+package Inheritance;
+
 public class Worker {
     private String name;
     private String birthDate;
@@ -35,7 +37,7 @@ public class Worker {
 
     @Override
     public String toString() {
-        return "Worker{" +
+        return "Inheritance.Worker{" +
                 "name='" + name + '\'' +
                 ", birthDate='" + birthDate + '\'' +
                 ", endDate='" + endDate + '\'' +

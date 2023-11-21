@@ -1,3 +1,5 @@
+package Inheritance;
+
 public class Employee extends Worker {
     private long employeeId;
     private String hireDate;
@@ -17,7 +19,7 @@ public class Employee extends Worker {
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Inheritance.Employee{" +
                 "employeeId=" + employeeId +
                 ", hireDate='" + hireDate + '\'' +
                 '}' + super.toString();

@@ -1,3 +1,7 @@
+package Inheritance;
+
+import Inheritance.Employee;
+
 public class SalariedEmployee extends Employee {
     private double annualSalary;
     private boolean isRetired;
@@ -24,7 +28,7 @@ public class SalariedEmployee extends Employee {
 
     @Override
     public String toString() {
-        return "SalariedEmployee{" +
+        return "Inheritance.SalariedEmployee{" +
                 "annualSalary=" + annualSalary +
                 ", isRetired=" + isRetired +
                 '}' + super.toString();
