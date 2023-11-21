@@ -1,3 +1,5 @@
+package Encapsulation;
+
 public class Printer {
     private int tonerLevel;
     private int pagesPrinted;
