@@ -1,3 +1,5 @@
+package Composition;
+
 public class DishWasher {
     private boolean hasWorkToDo = false;
 

@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e54efd7d-342b-4224-9d79-48f0e7327925" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CoffeeMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DishWasher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Refrigerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SmartKitchen.java" afterDir="false" />
+    <list default="true" id="e54efd7d-342b-4224-9d79-48f0e7327925" name="Changes" comment="Add in composition work">
+      <change afterPath="$PROJECT_DIR$/src/Printer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CoffeeMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/CoffeeMaker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DishWasher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/DishWasher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SalariedEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/SalariedEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Refrigerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/Refrigerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SmartKitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/SmartKitchen.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +84,30 @@
       <option name="presentableId" value="Default" />
       <updated>1699899220078</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add in composition work">
+      <option name="closed" value="true" />
+      <created>1700577104141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700577104141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add in composition work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add in composition work" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Printer.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

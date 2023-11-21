@@ -1,3 +1,5 @@
+package Composition;
+
 public class Refrigerator {
     private boolean hasWorkToDo = false;
 

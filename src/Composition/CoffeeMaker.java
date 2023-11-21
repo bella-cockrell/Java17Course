@@ -1,3 +1,5 @@
+package Composition;
+
 public class CoffeeMaker {
     private boolean hasWorkToDo = false; //this could be manually set when
     //// class is instantiated by including a constructor
