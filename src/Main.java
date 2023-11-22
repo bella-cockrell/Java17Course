@@ -1,16 +1,16 @@
 
 public class Main {
     public static void main(String[] args) {
-        Encapsulation.Printer printer = new Encapsulation.Printer(50, false);
-        printer.addToner(49);
-        printer.addToner(20);
-        printer.printPages(5);
+        Car car = new Car("Normal Car");
+        runRace(car);
 
-        Encapsulation.Printer duplexPrinter = new Encapsulation.Printer(99, true);
-        duplexPrinter.printPages(5);
-        duplexPrinter.printPages(2);
+        Car gasCar = new GasPoweredCar("Gas Guzzler", 15.4, 6);
+        runRace(gasCar);
 
-        Encapsulation.Printer tooLittleInkPrinter = new Encapsulation.Printer(-1, false);
-        Encapsulation.Printer tooMuchInkPrinter = new Encapsulation.Printer(101, false);
+        //you can end up using a factory pattern to instantiate new classes too using polymorphism
+    }
+    public static void runRace(Car car) {
+        car.startEngine();
+        car.drive();
     }
 }
